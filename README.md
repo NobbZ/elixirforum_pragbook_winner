@@ -1,20 +1,14 @@
 # Pragbook
 
-**TODO: Add description**
+## Compiling
 
-## Installation
+Just do a simple `mix escript.build`, a file `pragbook` will be created by this.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
+## Usage
 
-  1. Add pragbook to your list of dependencies in `mix.exs`:
+`./pragbook [month]`
 
-        def deps do
-          [{:pragbook, "~> 0.0.1"}]
-        end
+Given a `month`s name, it will fetch the ranking of that month and
+tell you who the winner was/has the best chances to be the winner.
 
-  2. Ensure pragbook is started before your application:
-
-        def application do
-          [applications: [:pragbook]]
-        end
-
+When no month is given, it will check for the current month.
