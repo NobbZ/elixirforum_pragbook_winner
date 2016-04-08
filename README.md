@@ -2,7 +2,8 @@
 
 ## Compiling
 
-Just do a simple `mix escript.build`, a file `pragbook` will be created by this.
+* First fetch and build the dependencies: `mix do deps.get, deps.build`
+* Then just do a simple `mix escript.build`, a file `pragbook` will be created by this.
 
 ## Usage
 
